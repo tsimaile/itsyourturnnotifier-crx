@@ -1,0 +1,27 @@
+{
+	"name": "__MSG_extName__",
+	"version": "2011.5.31.1739",
+	
+	"description": "Show ItsYourTurn.com game status",
+	"icons": {
+		"16": 	"/images/icon16_clr.png",
+		"48":	"/images/icon48_grn.png",
+		"128":	"/images/icon128_grn.png"
+		},
+	"default_locale": "en",
+	
+	"browser_action": {
+		"default_icon":	"/images/icon48_clr.png"
+		},
+
+	"background_page":	"background.html",
+	"homepage_url":	"https://sites.google.com/site/deexaminer/iyt-notifier",
+	"minimum_chrome_version": "5.0.316.0",
+	"options_page": "options.html",
+	"permissions": [
+		"notifications",
+		"tabs",
+		"http://www.itsyourturn.com/*",
+		"https://sites.google.com/site/deexaminer/iyt-notifier/*"
+		]
+}

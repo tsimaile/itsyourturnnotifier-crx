@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title id="title"></title>
+	<link href="options.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="common.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+</head>
+
+<body onload="onload()">
+
+	<form name="options_form">
+	<table width="100%" height="100%"><tr><td valign=top align=center>
+		
+		<table border=0 width="360">
+			<tr><td>
+
+			<div class="region">
+
+				<div class="header">
+					<img class="img-logo" src="/images/icon48_grn.png"
+						onclick="window.open('https://sites.google.com/site/deexaminer/itsyourturn-notifier');"
+						title="Click to website"
+						alt="ItsYourTurn Notifier logo">
+					<script>getMessage("extName")</script>
+				</div>
+				<div class="regionHdr">
+					<input type="checkbox" id="chkNotify" onchange="showDivAudio()">
+						<script>getMessage("lblShowNotification")</script>
+					</input>
+				</div>
+				<br />
+				<div id="divAudio" class="region">
+					<div class="regionHdr"><script>getMessage("lblSoundNotification")</script></div>
+					<br/>
+					<input type="radio" name="rdgSound" value="beep" onchange="rdgOnChange('beep')" />
+						<a href="http://www.ibiblio.org/pub/multimedia/pc-sounds/ding.wav"><script>getMessage("lblBeep")</script></a><br />
+					<input type="radio" name="rdgSound"  value="file" onchange="rdgOnChange('file')" />
+						<a href="http://www.w3.org/TR/html5/number-state.html#file-upload-state"><script>getMessage("lblFile")</script></a>
+						<input id="fleSound" type="file"  accept="audio" onchange="handleFile(this.files)" /><br />
+					<input type="radio" name="rdgSound" value="list" onchange="rdgOnChange('list')" /> <a href="https://sites.google.com/site/deexaminer/iyt-notifier/audio"><script>getMessage("lblList")</script></a>
+						<select id="optSoundList" onchange="optSoundListOnChange()"></select><br />
+						<div id="spanQuote" class="quote"></div>
+						<div id="spanMsg" class="description"></div>
+					<input type="radio" name="rdgSound" value="off"  onchange="rdgOnChange('off')"/> <script>getMessage("lblOff")</script><br />
+					<audio id="audTest" src=""></audio>
+				</div>
+	
+				<input id="btnTest" type="button" onclick="testOptions()" class="button" />
+				<input id="btnSave" type="button" onclick="saveOptions()" class="button" />
+				<input id="btnClose" type="button" onclick="closeOptions()" class="button" />
+				<div class="rate_review">
+					<a href="https://chrome.google.com/webstore/detail/plldmabodkfghmochloedcjhlcdoifga">Review or Rate</a>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<a href="https://sites.google.com/site/deexaminer/iyt-notifier/versions">V.<script>getMessage("extVersion")</script></a>
+				| <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL 1.1</a>
+				| &copy; 2008-2011
+				<a href="http://www.itsyourturn.com/iyt.dll?userprofile?userid=15200000087539">Mr :-)</a>
+			</div>
+			</td></tr>
+		</table>
+		
+	</td></tr></table>
+	</form>
+
+</body>
+</html>

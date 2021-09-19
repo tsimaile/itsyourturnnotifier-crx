@@ -1,0 +1,78 @@
+{
+	"extName": {
+		"message":		"ItsYourTurn Notifier",
+		"description":	"Extension name"
+		},
+	"extVersion": {
+		"message":		"2011.5.30.1739",
+		"description":	"Extension version"
+		},
+	"ttlOptions": {
+		"message":		"Options",
+		"description":	"Options Title"
+		},
+	"lblShowNotification": {
+		"message":		"Show Notification",
+		"description":	"Options checkbox label"
+		},
+	"lblSoundNotification": {
+		"message":		"Sound Notification",
+		"description":	"Options radiogroup label"
+		},
+	"lblBeep": {
+		"message":		"Ding",
+		"description":	"Options radiogroup label - Ding"
+		},
+	"lblFile": {
+		"message":		"File",
+		"description":	"Options radiogroup label - File"
+		},
+	"lblList": {
+		"message":		"List",
+		"description":	"Options radiogroup label - List"
+		},
+	"lblOff": {
+		"message":		"Off",
+		"description":	"Options radiogroup label - Off"
+		},
+	"btnTest": {
+		"message":		"Test",
+		"description":	"Options Test button label"
+		},
+	"btnSave": {
+		"message":		"Save",
+		"description":	"Options Save button label"
+		},
+	"btnClose": {
+		"message":		"Close",
+		"description":	"Options Close button label"
+		},
+	"ladder": {
+		"message":		"ladder",
+		"description":	"Tooltip text"
+		},
+	"tournament": {
+		"message":		"tournament",
+		"description":	"Tooltip text"
+		},
+	"regular": {
+		"message":		"regular",
+		"description":	"Tooltip text"
+		},
+	"message": {
+		"message":		"message",
+		"description":	"Tooltip text"
+		},
+	"remaining": {
+		"message":		"remaining",
+		"description":	"Tooltip text"
+		},
+	"until_more_turns": {
+		"message":		"until more turns",
+		"description":	"Tooltip text"
+		},
+	"turn": {
+		"message":		"turn",
+		"description":	"Tooltip text"
+		}
+}

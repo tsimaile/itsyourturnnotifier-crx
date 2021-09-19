@@ -1,0 +1,40 @@
+body {
+	font-family: 	calibri, arial;
+	}
+.img-logo {
+	height: 		26px;
+	width: 			26px;
+	border: 		none;
+	vertical-align:	bottom;
+	}
+.header {
+	font-size:		26px;
+	font-family:	cambria, georgia;
+	vertical-align:	top;
+	margin-bottom:	24px;
+	}
+.region {
+	border-style:	solid;
+	border-color:	#80e699;
+	padding:		8px;
+	margin:			4px;
+	margin-bottom:	12px;
+	}
+.regionHdr {
+	font-weight:	bold;
+	}
+.quote, .description {
+	padding-left:	52px;
+	}
+.quote {
+	font-style:		italic;
+	}
+.description {
+	font-size:		12px;
+	}
+.button {
+	width:			64px;
+	}
+.footer {
+	text-align:		right;
+	}
